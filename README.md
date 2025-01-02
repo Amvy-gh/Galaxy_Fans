@@ -34,3 +34,5 @@ Aplikasi ini dibuat untuk memenuhi project Pemrograman Web. Aplikasi ini berisi 
 2. Isi form yang tersedia dengan data fan Rimuru yang ingin diinputkan.
 3. Klik tombol "Join the Galaxy" untuk menginputkan data fan Rimuru.
 4. Data fan Rimuru yang telah diinputkan akan ditampilkan pada halaman yang sama.
+
+
