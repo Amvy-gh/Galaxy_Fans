@@ -96,13 +96,12 @@ include '../includes/main.php';
                 </form>
             </div>
         </div>
-
         <h2 class="title h3 text-center my-4">Our Star Warriors</h2>
         <div class="table-responsive">
             <table class="table table-striped table-hover">
                 <thead class="table-dark">
                     <tr>
-                        <th>ID</th>
+                        <!-- Hapus kolom ID -->
                         <th>Name</th>
                         <th>Gender</th>
                         <th>Interests</th>
@@ -114,7 +113,7 @@ include '../includes/main.php';
                 <tbody>
                     <?php foreach ($fans as $fan): ?>
                         <tr>
-                            <td><?php echo $fan['id']; ?></td>
+                            <!-- Hapus tampilan ID -->
                             <td><?php echo htmlspecialchars($fan['name']); ?></td>
                             <td><?php echo htmlspecialchars($fan['gender']); ?></td>
                             <td><?php echo htmlspecialchars($fan['interests']); ?></td>
@@ -122,11 +121,11 @@ include '../includes/main.php';
                             <td><?php echo date('Y-m-d H:i', strtotime($fan['created_at'])); ?></td>
                             <td>
                                 <div class="d-flex justify-content-center gap-2">
-                                    <!-- Delete Button -->
+                                    <!-- Hapus tombol Hapus untuk ID -->
                                     <a href="../actions/delete.php?id=<?php echo $fan['id']; ?>" 
-                                       class="btn btn-outline-danger btn-sm d-flex align-items-center"
-                                       onclick="return confirm('Are you sure you want to delete this record?')">
-                                       <i class="fas fa-trash-alt me-1"></i> Delete
+                                    class="btn btn-outline-danger btn-sm d-flex align-items-center"
+                                    onclick="return confirm('Are you sure you want to delete this record?')">
+                                    <i class="fas fa-trash-alt me-1"></i> Delete
                                     </a>
                                 </div>
                             </td>
