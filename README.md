@@ -2,6 +2,10 @@
 
 Repository ini berisi contoh kode untuk Project Pemrograman Web.
 
+## Link
+
+Kunjungi forum kami di: [Galaxy Forum](http://galaxy-forum.free.nf/)
+
 ## Deskripsi
 
 Aplikasi ini dibuat untuk memenuhi project Pemrograman Web. Aplikasi ini berisi fitur-fitur sebagai berikut:
