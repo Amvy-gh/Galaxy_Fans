@@ -2,7 +2,7 @@
 
 Repository ini berisi contoh kode untuk Project Pemrograman Web.
 
-## Link Eksternal
+## Link
 
 Kunjungi forum kami di: [Galaxy Forum](http://galaxy-forum.free.nf/)
 
